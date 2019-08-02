@@ -17,5 +17,5 @@ for (let i = 3; i < ITERATIONS; i++) {
     }
 }
 
-console.log(resultArray);
+console.log(resultArray.reduce((sum, acc) => sum + acc, 0));
 
